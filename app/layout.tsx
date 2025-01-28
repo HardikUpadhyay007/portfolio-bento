@@ -7,24 +7,24 @@ const inter = Inter({ subsets: ["latin"] });
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Leo Miranda",
-  description: "Leo Miranda | Frontend developer portfolio",
+    title: "Hardik Upadhyay",
+    description: "Hardik Upadhyay | Web developer portfolio",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <main className="dark text-foreground bg-background min-h-screen">
-          <NavbarSection />
-          <Providers>{children}</Providers>
-          <Analytics />
-        </main>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className={inter.className}>
+                <main className="dark text-foreground bg-background min-h-screen">
+                    <NavbarSection />
+                    <Providers>{children}</Providers>
+                    <Analytics />
+                </main>
+            </body>
+        </html>
+    );
 }

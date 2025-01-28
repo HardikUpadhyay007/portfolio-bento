@@ -1,9 +1,8 @@
 import { whoAmIDataType } from "../types/whoAmIData";
 
 export const whoAmIData: whoAmIDataType = {
-  fullName: "Leo Miranda",
-  profession: "Frontend developer",
-  whoAmI:
-    "Hello! I am a developer who really enjoys transforming ideas into functional software that exceeds expectations. I like to be constantly learning from other professionals, teams and communities to stay on top of the latest industry trends. Being a developer is not just a job for me; it is an activity that I absolutely appreciate all the time.",
-  quote: "I really like creating software solutions",
+    fullName: "Hardik Upadhyay",
+    profession: "Web developer",
+    whoAmI: "Hi! I'm a developer passionate about turning ideas into impactful, high-performing software. I thrive on continuous learning and enjoy collaborating with professionals, teams, and communities to stay ahead of industry trends. For me, development isn't just a job—it's a craft I genuinely love and appreciate every step of the way.",
+    quote: "It's all magic!",
 };
