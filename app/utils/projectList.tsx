@@ -24,14 +24,111 @@ import { NextSVG } from "../components/ui/icons/index";
 
 export const ProjectList: ProjectType[] = [
     {
-        icon: <></>,
-        title: "",
-        subtitle: "",
-        technologies: [],
-        description: "",
-        imgUrl: "",
+        icon: <ShadcnLandingSVG />,
+        title: "College Eventify",
+        subtitle: "Event management platform",
+        technologies: [
+            {
+                name: "NextJS",
+                icon: <VueSVG color="#61DAFB" size={16} />,
+            },
+
+            {
+                name: "TypeScript",
+                icon: <TypescriptSVG color="#3178C6" size={16} />,
+            },
+
+            {
+                name: "Tailwind",
+                icon: <TailwindSVG color="#06B6D4" size={16} />,
+            },
+        ],
+        description:
+            "College-Eventify is a Next.js-based platform for college clubs to seamlessly register, log in, and post events. It features dynamic event display, image uploads, secure routing, and a responsive, user-friendly interface.",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746517834/proj1_qfbbrq.jpg",
         videoUrl: "",
-        githubUrl: "",
-        websiteUrl: "NONE",
+        githubUrl: "https://github.com/HardikUpadhyay007/college-eventify",
+        websiteUrl: "https://college-eventify.vercel.app/",
+    },
+    {
+        icon: <ShadcnLandingSVG />,
+        title: "Bento Portfolio",
+        subtitle: "Portfolio website",
+        technologies: [
+            {
+                name: "NextJS",
+                icon: <VueSVG color="#61DAFB" size={16} />,
+            },
+
+            {
+                name: "TypeScript",
+                icon: <TypescriptSVG color="#3178C6" size={16} />,
+            },
+
+            {
+                name: "Tailwind",
+                icon: <TailwindSVG color="#06B6D4" size={16} />,
+            },
+        ],
+        description:
+            "Bento Portfolio is a modern portfolio website built with Next.js and Tailwind CSS. It features a sleek design, responsive layout, and showcases projects and skills effectively. Ideal for developers and creatives looking to present their work.",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746526413/proj4_oqty2l.jpg",
+        videoUrl: "",
+        githubUrl: "https://github.com/HardikUpadhyay007/portfolio-bento",
+        websiteUrl: "https://hardikkupadhyay.vercel.app/",
+    },
+    {
+        icon: <ShadcnLandingSVG />,
+        title: "College Eventify",
+        subtitle: "Event management platform",
+        technologies: [
+            {
+                name: "NextJS",
+                icon: <VueSVG color="#61DAFB" size={16} />,
+            },
+
+            {
+                name: "TypeScript",
+                icon: <TypescriptSVG color="#3178C6" size={16} />,
+            },
+
+            {
+                name: "Tailwind",
+                icon: <TailwindSVG color="#06B6D4" size={16} />,
+            },
+        ],
+        description:
+            "College-Eventify is a Next.js-based platform for college clubs to seamlessly register, log in, and post events. It features dynamic event display, image uploads, secure routing, and a responsive, user-friendly interface.",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746517834/proj1_qfbbrq.jpg",
+        videoUrl: "",
+        githubUrl: "https://github.com/HardikUpadhyay007/college-eventify",
+        websiteUrl: "https://college-eventify.vercel.app/",
+    },
+    {
+        icon: <ShadcnLandingSVG />,
+        title: "Landing Page",
+        subtitle: "Landing page for a company",
+        technologies: [
+            {
+                name: "ReactJS",
+                icon: <VueSVG color="#61DAFB" size={16} />,
+            },
+
+            {
+                name: "TypeScript",
+                icon: <TypescriptSVG color="#3178C6" size={16} />,
+            },
+
+            {
+                name: "Tailwind",
+                icon: <TailwindSVG color="#06B6D4" size={16} />,
+            },
+        ],
+        description:
+            "Landing page for Jyoti Autmobiles is a sleek React.js-powered landing page designed to showcase automotive services and parts. Fully responsive and optimized for all devices, it delivers a clean UI, smooth navigation, and fast performance for an engaging user experience.",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746525969/sbuprqqd1chup4ot9zm9.jpg",
+        videoUrl: "",
+        githubUrl: "https://github.com/HardikUpadhyay007/jyotiautomobiles",
+        websiteUrl: "https://jyotiautomobiles.vercel.app/",
     },
 ];
