@@ -79,8 +79,8 @@ export const ProjectList: ProjectType[] = [
     },
     {
         icon: <ShadcnLandingSVG />,
-        title: "College Eventify",
-        subtitle: "Event management platform",
+        title: "ItzLinkz",
+        subtitle: "Links handler",
         technologies: [
             {
                 name: "NextJS",
@@ -99,10 +99,10 @@ export const ProjectList: ProjectType[] = [
         ],
         description:
             "College-Eventify is a Next.js-based platform for college clubs to seamlessly register, log in, and post events. It features dynamic event display, image uploads, secure routing, and a responsive, user-friendly interface.",
-        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746517834/proj1_qfbbrq.jpg",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746518565/proj2_rmxdhl.jpg",
         videoUrl: "",
-        githubUrl: "https://github.com/HardikUpadhyay007/college-eventify",
-        websiteUrl: "https://college-eventify.vercel.app/",
+        githubUrl: "https://github.com/HardikUpadhyay007/itzlinkz",
+        websiteUrl: "https://itzlinkz.vercel.app/",
     },
     {
         icon: <ShadcnLandingSVG />,
