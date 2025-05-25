@@ -131,4 +131,31 @@ export const ProjectList: ProjectType[] = [
         githubUrl: "https://github.com/HardikUpadhyay007/jyotiautomobiles",
         websiteUrl: "https://jyotiautomobiles.vercel.app/",
     },
+    {
+        icon: <ShadcnLandingSVG />,
+        title: "Art-Dome",
+        subtitle: "Digital art gallery",
+        technologies: [
+            {
+                name: "NextJS",
+                icon: <NextSVG color="#61DAFB" size={16} />,
+            },
+
+            {
+                name: "TypeScript",
+                icon: <TypescriptSVG color="#3178C6" size={16} />,
+            },
+
+            {
+                name: "Tailwind",
+                icon: <TailwindSVG color="#06B6D4" size={16} />,
+            },
+        ],
+        description:
+            "Art-Dome is a digital art gallery built with Next.js and Tailwind CSS, showcasing a collection of stunning artworks. It features a responsive design, smooth animations, and an intuitive user interface for exploring and appreciating art.",
+        imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1748188897/proj5_g3cqgg.jpg",
+        videoUrl: "",
+        githubUrl: "https://github.com/HardikUpadhyay007/art-dome",
+        websiteUrl: "https://art-dome.vercel.app/",
+    },
 ];
